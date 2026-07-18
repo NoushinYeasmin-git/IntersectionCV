@@ -2,6 +2,11 @@
 
 **Real-time, calibration-free traffic delay analysis from CCTV video.**
 
+<video src="video/intersection.mp4" controls width="720">
+  Your browser (or GitHub's renderer) does not support inline video playback.
+  <a href="video/intersection.mp4">Click here to download/view the demo video</a> instead.
+</video>
+
 IntersectionCV is a desktop computer vision application that measures how much vehicles are slowed down or stopped on a road, and compares that directly against a second road, using nothing but ordinary CCTV footage. It combines YOLOv8/YOLO26 object detection with ByteTrack multi-object tracking to follow every vehicle through two independently shaped zones and compute delay the way a manual floating-car survey would, automatically, for every vehicle, in real time.
 
 Built and tested against footage from Saheb Bazar – Alupotti Road, Rajshahi, Bangladesh, a bustling, mixed-traffic bazar corridor.
